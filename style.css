@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+header {
+    padding: 10px;
+    border-bottom: 5px solid green;
+}
+
+header h1 {
+    line-height: 1.2;
+    margin: 0;
+}
+
+header p {
+    line-height: 1.2;
+    margin: 0;
+}
+
+nav {
+    text-align: center;
+    /* Center the navigation links */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+}
+
+nav li {
+    display: inline-block;
+    /* Display each navigation link on a separate line */
+}
+
+nav a {
+    color: green;
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 3px solid green;
+    /* Add a border around each navigation link */
+    /* Add rounded corners to the border */
+}
+
+nav a:hover {
+    background-color: lightseagreen;
+    color: green;
+}
+
+main {
+    padding: 5px 10px;
+}
+
+main h1 {
+    text-align: center;
+}
+
+.highlight {
+    font-weight: bold;
+    color: green;
+    /* Example color for highlighting */
+}
+
+h2 {
+    border-bottom: 1px solid white;
+}
+
+.skills {
+    columns: 2;
+}
+
+#resume {
+    padding: 25px;
+}
+
+.rHeader {
+    text-align: center;
+}
+
+.rDate {
+    float: right;
+}
+
+#projects {
+    text-align: center;
+}
+
+#project2 img {
+    height: 360;
+    width: 640;
+    border: 1px solid white;
+}
