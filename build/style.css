@@ -4,63 +4,64 @@ body {
     font-family: Arial, sans-serif;
     background-color: black;
     color: white;
-}
-
-header {
-    padding: 10px;
-    border-bottom: 5px solid green;
-}
-
-header h1 {
-    line-height: 1.2;
-    margin: 0;
-}
-
-header p {
-    line-height: 1.2;
-    margin: 0;
+    display: grid;
+    grid-template-rows: auto 1fr; /* Define two rows, one for navigation and one for main content */
 }
 
 nav {
-    text-align: center;
-    /* Center the navigation links */
+    grid-row: 1; /* Place navigation on the first row */
+    background-color: #333; /* Add a background color */
+    color: white; /* Text color */
 }
 
+/* Adjust navigation link styles */
 nav ul {
+    padding: 0;
     list-style-type: none;
     margin: 0;
-    padding: 5px;
 }
 
 nav li {
-    display: inline-block;
-    /* Display each navigation link on a separate line */
+    display: inline-block; /* Change to inline-block to display links horizontally */
+    margin-right: 10px; /* Adjust spacing between links */
 }
-
 nav a {
-    color: green;
+    color: white; /* Text color */
     text-decoration: none;
-    padding: 5px 10px;
-    border: 3px solid green;
-    /* Add a border around each navigation link */
+    display: inline-block;
+    padding: 10px;
 }
 
 nav a:hover {
-    background-color: lightseagreen;
-    color: green;
+    background-color: #555; /* Hover background color */
+    color: goldenrod;
+}
+
+a {
+    text-decoration: none;
 }
 
 main {
-    padding: 5px 10px;
+    grid-row: 2; /* Place main content on the second row */
+    padding: 25px; /* Adjust padding */
+    background-color: #222; /* Add a background color */
+    color: white; /* Text color */
 }
 
 main h1 {
     text-align: center;
 }
 
-.highlight {
-    font-weight: bold;
-    color: green;
+ul {
+    list-style: none;
+}
+.highlight a {
+    color: goldenrod;
+}
+
+.highlight a:hover {
+    color: white;
+    text-decoration: underline;
     /* Example color for highlighting */
 }
 
