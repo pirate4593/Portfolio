@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -8,73 +9,204 @@
 </head>
 
 <body>
-    <header>
-        <h1>Joseph O'Connor</h1>
-        <p>Computer Science Major</p>
-        <nav>
-            <ul>
-                <li><a href="index.html" aria-current="page">Home</a></li>
-                <li><a href="resume.html">Resume</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section id="projects">
-            <div id="project1">
-                <h1>Nexus Ninja (Godot GDScript)</h1>
-                <p><span class="highlight"><a href="https://leodresang.itch.io/nexus-ninja ">Nexus Ninja</a></span> is an adventure fighting
-                    game made with Godot.</p>
-                <p>For a samurai, the wars between the clans span ages transcending time itself. <br>
-                    Follow your enemy through two different eras: the time of your clan in feudal Japan; <br>
-                    the time of your foe in a cyberpunk future. Avenge your ancestors across the nexus.</p>
-                <p>Things I worked on:</p>
+    <div class="page">
+
+        <header>
+            <h1>Joseph O'Connor</h1>
+            <p>Computer Science Major</p>
+            <nav>
                 <ul>
-                    <li>Enemies</li>
-                    <li>Level Transition</li>
-                    <li>Sound Effects</li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                    <li><a href="projects.html" aria-current="page">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                 </ul>
-                <p class="video"><iframe width="640" height="360" src="https://www.youtube.com/embed/PVqVb4E1oc4" 
-                    title="Nexus Ninja Trailer - Stout Game Expo" frameborder="0" 
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
-            </div>
-            <div id="project2">
-                <h1>@Obsession (Unity C#)</h1>
-                <p><span class="highlight"><a href="https://austereinsomniac.itch.io/obsession">@Obsession</a></span> is a point and click horror-like
-                    game made with Unity.</p>
-                <p>You’re a streamer. Beware: someone seeks you. <br>Make the right choices to protect yourself from a
-                    mysterious fan.</p>
-                <p>Things I worked on:</p>
-                <ul>
-                    <li>Stalker system</li>
-                    <li>Notification system</li>
-                    <li>Background music and other sounds</li>
-                </ul>
-                <p class="video"><iframe width="640" height="360" src="https://www.youtube.com/embed/xDhiqcZFyro"
-                        title="@Obsession Release Trailer" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
-            </div>
-            <div id="project3">
-                <h1>Resume Today (TypeScript)</h1>
-                <p><span class="highlight"><a href="https://resume-today.onrender.com">Resume Today</a></span> is an online platform designed to simplify the resume building process for job seekers</p>
-                <p>Things I worked on:</p>
-                <ul>
-                    <li>Adding Skills</li>
-                    <li>Generated Resume Page</li>
-                    <li>Various pages</li>
-                    <li>Website Logo</li>
-                </ul>
-                <p><img src="resumeToday.png"></p>
-                <p><img src="resumeToday2.png"></p>
-            </div>
-        </section>
-    </main>
-    <footer>
-        <p id="copyright">&copy; 2024 Joseph O'Connor. All rights reserved.</p>
-    </footer>
+            </nav>
+        </header>
+
+        <main>
+
+            <h1>Projects</h1>
+
+            <section id="projects">
+                <div class="carousel">
+
+                    <button class="carousel-btn prev">&#10094;</button>
+
+                    <div class="carousel-track">
+
+                        <!-- ===== GATOR HUCKER ===== -->
+                        <div class="project">
+                            <h2>Gator Hucker</h2>
+
+                            <div class="tech">
+                                <span>Unreal Engine 5</span>
+                                <span>C++</span>
+                                <span>Multiplayer</span>
+                                <span>Networking</span>
+                            </div>
+
+                            <p>
+                                <span class="highlight">
+                                    <a href="https://gatorillagames.itch.io/gator-hucker">Gator Hucker</a>
+                                </span>
+                                is a third-person arena multiplayer brawler made with Unreal Engine 5.7.
+                            </p>
+                            <p>
+                                Gator Hucker is a team deathmatch alligator brawler where you craft your own unique playstyle!
+                                You are alien alligators with wacky abilities in a gladiator battle! 
+                                Huck yourself into the arena with the help of super-mecha gorillas and cause chaos for glory and entertainment!
+                            </p>
+                            <ul>
+                                <li>You are alien alligators</li>
+                                <li>4v4 team deathmatch gameplay</li>
+                                <li>Ability-driven combat</li>
+                            </ul>
+
+                            <p><strong>Things I worked on:</strong></p>
+                            <ul>
+                                <li>Hosting and joining sessions</li>
+                                <li>Lobby systems</li>
+                                <li>Main menu session management</li>
+                            </ul>
+
+                            <iframe src="https://www.youtube.com/embed/HwwFOioglDc" allowfullscreen></iframe>
+                        </div>
+
+                        <!-- ===== NEXUS NINJA ===== -->
+                        <div class="project">
+                            <h2>Nexus Ninja</h2>
+
+                            <div class="tech">
+                                <span>Godot</span>
+                                <span>GDScript</span>
+                                <span>Enemy AI</span>
+                                <span>Audio</span>
+                            </div>
+
+                            <p>
+                                <span class="highlight">
+                                    <a href="https://leodresang.itch.io/nexus-ninja">Nexus Ninja</a>
+                                </span>
+                                is an action game spanning feudal Japan and a cyberpunk future.
+                            </p>
+
+                            <p>
+                                Follow your enemy across time itself — from ancient battlefields
+                                to a neon-lit future — and avenge your ancestors across the nexus.
+                            </p>
+
+                            <p><strong>Things I worked on:</strong></p>
+                            <ul>
+                                <li>Enemy behaviors</li>
+                                <li>Level transitions</li>
+                                <li>Sound effects</li>
+                            </ul>
+
+                            <iframe src="https://www.youtube.com/embed/PVqVb4E1oc4" allowfullscreen></iframe>
+                        </div>
+
+                        <!-- ===== @OBSESSION ===== -->
+                        <div class="project">
+                            <h2>@Obsession</h2>
+
+                            <div class="tech">
+                                <span>Unity</span>
+                                <span>C#</span>
+                                <span>Systems Design</span>
+                                <span>Horror</span>
+                            </div>
+
+                            <p>
+                                <span class="highlight">
+                                    <a href="https://austereinsomniac.itch.io/obsession">@Obsession</a>
+                                </span>
+                                is a point-and-click psychological horror game.
+                            </p>
+
+                            <p>
+                                You’re a streamer. Someone is watching.
+                                Make the right choices to survive a dangerous obsession.
+                            </p>
+
+                            <p><strong>Things I worked on:</strong></p>
+                            <ul>
+                                <li>Stalker system</li>
+                                <li>Notification system</li>
+                                <li>Background music and sound design</li>
+                            </ul>
+
+                            <iframe src="https://www.youtube.com/embed/xDhiqcZFyro" allowfullscreen></iframe>
+                        </div>
+
+                        <!-- ===== RESUME TODAY ===== -->
+                        <div class="project">
+                            <h2>Resume Today</h2>
+
+                            <div class="tech">
+                                <span>TypeScript</span>
+                                <span>Web App</span>
+                                <span>Frontend</span>
+                                <span>UX</span>
+                            </div>
+
+                            <p>
+                                <span class="highlight">
+                                    <a href="https://resume-today.onrender.com">Resume Today</a>
+                                </span>
+                                is a web platform designed to simplify resume creation.
+                            </p>
+
+                            <p><strong>Things I worked on:</strong></p>
+                            <ul>
+                                <li>Skills input system</li>
+                                <li>Generated resume page</li>
+                                <li>Multiple site pages</li>
+                                <li>Website logo</li>
+                            </ul>
+
+                            <img src="resumeToday.png" alt="Resume Today screenshot">
+                            <img src="resumeToday2.png" alt="Resume Today screenshot">
+                        </div>
+
+                    </div>
+
+                    <button class="carousel-btn next">&#10095;</button>
+
+                </div>
+            </section>
+
+        </main>
+
+        <footer>
+            <p>&copy; 2026 Joseph O'Connor. All rights reserved.</p>
+        </footer>
+
+    </div>
+
+    <script>
+        const track = document.querySelector('.carousel-track');
+        const slides = Array.from(track.children);
+        const nextButton = document.querySelector('.carousel-btn.next');
+        const prevButton = document.querySelector('.carousel-btn.prev');
+
+        let currentIndex = 0;
+
+        function updateCarousel() {
+            track.style.transform = `translateX(-${currentIndex * 100}%)`;
+        }
+
+        nextButton.addEventListener('click', () => {
+            currentIndex = (currentIndex + 1) % slides.length;
+            updateCarousel();
+        });
+
+        prevButton.addEventListener('click', () => {
+            currentIndex = (currentIndex - 1 + slides.length) % slides.length;
+            updateCarousel();
+        });
+    </script>
+
 </body>
 
 </html>
