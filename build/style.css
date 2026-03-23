@@ -117,11 +117,20 @@ main h1 {
 
 /* ===== Media ===== */
 
+#resume {
+    overflow: visible;
+}
+
+#resume iframe {
+    width: 100%;
+    height: 90vh; /* fills most of the screen */
+    border: none;
+}
+
 iframe {
     width: 100%;
     aspect-ratio: 16 / 9;
     margin-top: 1rem;
-    pointer-events: none; /* Prevents blocking carousel buttons */
 }
 
 img {
