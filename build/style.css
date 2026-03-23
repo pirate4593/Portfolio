@@ -4,6 +4,16 @@
     box-sizing: border-box;
 }
 
+/* ===== Html ===== */
+
+html {
+    visibility: visible;
+}
+
+html.loading {
+    visibility: hidden;
+}
+
 /* ===== Body ===== */
 
 body {
