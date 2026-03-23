@@ -127,6 +127,7 @@ main h1 {
     border: none;
 }
 
+#projects iframe,
 .carousel iframe {
     width: 100%;
     aspect-ratio: 16 / 9;
